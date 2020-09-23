@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="commom-config" />
+        <module name="cloud-api-gateway" />
+        <module name="cloud-service-blog" />
+        <module name="cloud-elasticsearch" />
+        <module name="cloud-service-user" />
+      </profile>
+    </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="common-config" target="1.8" />
+      <module name="service-config" target="1.8" />
+    </bytecodeTargetLevel>
+  </component>
+  <component name="JavacSettings">
+    <option name="ADDITIONAL_OPTIONS_OVERRIDE">
+      <module name="cloud-api" options="-parameters" />
+      <module name="cloud-api-gateway" options="-parameters" />
+      <module name="cloud-common" options="-parameters" />
+      <module name="cloud-elasticsearch" options="-parameters" />
+      <module name="cloud-service" options="-parameters" />
+      <module name="cloud-service-blog" options="-parameters" />
+      <module name="cloud-service-user" options="-parameters" />
+      <module name="commom-config" options="-parameters" />
+      <module name="common-config" options="-parameters" />
+      <module name="common-utils" options="-parameters" />
+      <module name="service-config" options="-parameters" />
+    </option>
+  </component>
+</project>
