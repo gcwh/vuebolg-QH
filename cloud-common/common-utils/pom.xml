@@ -11,6 +11,8 @@
 
     <artifactId>common-utils</artifactId>
     <packaging>pom</packaging>
+    <dependencies>
+    </dependencies>
 
 
 </project>
